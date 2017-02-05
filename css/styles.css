@@ -1,0 +1,462 @@
+
+.wrapper{
+
+  width: 100%;
+}  
+
+@font-face {
+    font-family: LeagueGothic; /* Имя шрифта */
+    src: url(../fonts/LeagueGothic-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+
+.fon{
+	
+	height: 500px; 
+/*	width: 960px; 
+	background-color: grey; */
+	overflow: hidden; 
+	position: relative;
+} 
+
+
+.fon img {
+max-width: 100%; 
+position: absolute;
+bottom: 0;
+/*height: 500px; */
+}
+
+
+.header{
+	height: 160px;
+	/*background-color: white; */
+	
+	
+}
+
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	font-size: 24px;
+	font-family: LeagueGothic;
+}
+
+.logoB{
+	color: #fff;
+}
+
+.logoE{
+	color: #270943;
+	margin-left: -5px;
+}
+
+.menu{
+	position: absolute;
+	width: 55%;
+	top: 10%;
+	left: 42%;
+}
+
+.menu li{
+	float: left;
+	padding-right: 5%;
+}
+
+.list li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: LeagueGothic;
+}
+
+
+.iphone{
+	position: absolute;
+	height: 235px;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2); 
+	top: 160px;
+	z-index: 5;
+}
+
+.iphoneText{
+	width: 300px;
+	position: absolute;
+	left: 30%;
+    top: 30px;
+}
+
+.ipTextF{
+	font-size: 24px;
+	font-family: LeagueGothic;
+	color: #fff;
+}
+
+.ipTextM{
+	font-family: LeagueGothic;
+	font-size: 16px;
+	color: #e4b8f6;
+}
+
+.ipTextL{
+	font-family: arial;
+	color: #ececec;
+	font-size: 11px;
+}
+
+.phone img{
+	height: 240px;
+	width: 115px;
+	position: absolute;
+	margin-left: 63%;
+	top: -10px;
+}
+
+.boxMore{
+	height: 200px;
+	background-color: #5c4067;
+	padding-left: 30%;
+}
+
+.boxMIn{
+	float: left;
+	width: 13%;
+	margin-top: 45px;
+	margin-left: 6%;
+	position: relative;
+
+}
+
+.boxInF{
+	color: #fff;
+	font-size: 16px;
+	font-family: LeagueGothic;
+
+}
+
+.boxInM{
+	font-family: arial;
+	color: #ececec;
+	font-size: 11px;
+}
+
+.boxInL{
+	color: #fff;
+	font-size: 12px;
+	font-family: LeagueGothic;
+	position: absolute;
+	right: 0;
+}
+
+.content{
+	height: 355px;
+	background-color: #f9f9f9;
+	padding-left: 35%;
+}
+
+.contBoxL{
+	float: left;
+	width: 20%;
+	height: 160px;
+	background-color: #fff;
+	padding: 20px;
+	padding-bottom: 0;
+	margin-top: 50px;
+}
+
+.contBoxLF{
+	font-family: LeagueGothic;
+	font-size: 16px;
+}
+
+.contBoxLFIn{
+	color: #f2d4ff;
+}
+.contBoxLL{
+	font-family: arial;
+	font-size: 11px;
+}
+
+.contBoxR{
+	float: left;
+	width: 35%;
+	margin-left: 4%;
+	margin-top: 70px;
+	position: relative;
+}
+
+.contBoxRF{
+	font-family: LeagueGothic;
+	font-size: 16px;
+}
+
+.contBoxRContH{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.contBoxRContF{
+	font-family: arial;
+	font-size: 11px;
+	margin-left: 50px;
+}
+
+.contBoxRFut{
+	font-family: LeagueGothic;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	margin-top: 10px;
+}
+
+.contF{
+	height: 235px;
+	background-color: #ececec;
+	padding-left: 33%;
+}
+
+.contFBox{
+	float: left;
+	width: 20%;
+	margin-top: 50px;
+	margin-left: 4%;
+}
+
+.contFBoxFL{
+	font-family: LeagueGothic;
+	font-size: 24px;
+}
+
+.contFBoxSL{
+	font-family: arial;
+	color: grey;
+	font-size: 11px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.contFBoxFL span{
+	color: grey;
+}
+
+.contFBoxFO{
+	font-family: LeagueGothic;
+	font-size: 18px;
+}
+
+.contFBoxLO{
+	font-family: arial;
+	color: grey;
+	font-size: 11px;
+}
+
+
+.footer{
+	height: 65px;
+	background-color: #4c4c4c;
+	position: relative;
+}
+
+.menuFut{
+	position: absolute;
+	width: 55%;
+	top: 40%;
+	left: 36%;
+}
+
+.menuFut li{
+	float: left;
+	padding-right: 4%;
+}
+
+.listFut li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-family: LeagueGothic;
+}
+
+@media screen and (max-width: 960px) {
+	.fon{
+		height: 420px;
+
+	}
+
+    .fon img{
+        max-width: 100%; 
+		position: absolute;
+		/*bottom: 0; */
+		top: 0;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+	.fon{
+		height: 255px;
+	}
+
+	.fon img{
+		bottom: 0; 
+    }
+
+	.logo{
+	top: 6%;
+	left: 40%;
+	font-size: 18px;
+}
+	.menu{
+	width: 55%;
+	top: 12%;
+	left: 40%;
+}
+
+	.list li a{
+	font-size: 12px;
+}
+
+	.iphone{
+	height: 130px;
+	top: 80px;
+
+}
+	.iphoneText{
+	width: 120px;
+	left: 40%;
+    top: 20px;
+}
+
+.ipTextF{
+	font-size: 16px;
+}
+
+.ipTextM{
+	font-size: 8px;
+}
+
+.ipTextL{
+	font-size: 5px;
+}
+
+.phone img{
+	height: 130px;
+	width: 60px;
+	margin-left: 63%;
+	top: -4px;
+}
+
+	.boxMore{
+	height: 110px;
+	padding-left: 37%;
+}
+
+.boxMIn{
+	width: 13%;
+	margin-top: 25px;
+	margin-left: 6%;
+
+}
+
+	.boxInF{
+	font-size: 9px;
+}
+	.boxInM{
+	font-size: 5px;
+}
+
+.boxInL{
+	font-size: 7px;
+	right: 0;
+}
+
+	.content{
+	height: 190px;
+	padding-left: 35%;
+}
+
+.contBoxL{
+	width: 20%;
+	height: 85px;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-top: 30px;
+}
+
+	.contBoxLF{
+	font-size: 10px;
+}
+
+
+.contBoxLL{
+	font-size: 6px;
+}
+
+.contBoxR{
+	width: 35%;
+	margin-left: 4%;
+	margin-top: 40px;
+}
+
+.contBoxRF{
+	font-size: 10px;
+}
+
+.contBoxRContH{
+	font-size: 7px;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+	.contBoxRContF{
+	font-size: 6px;
+	margin-left: 15px;
+}
+
+	.contBoxRFut{
+	font-size: 8px;
+	margin-top: 6px;
+}
+
+	.contF{
+	height: 125px;
+	padding-left: 33%;
+}
+
+.contFBox{
+	width: 15%;
+	margin-top: 30px;
+	margin-left: 4%;
+}
+
+.contFBoxFL{
+	font-size: 10px;
+}
+
+.contFBoxSL{
+	font-size: 5px;
+	margin-bottom: 3px;
+}
+
+	.contFBoxFO{
+	font-size: 10px;
+}
+
+.contFBoxLO{
+	font-size: 5px;
+}
+
+.menuFut{
+	width: 55%;
+	top: 20%;
+	left: 36%;
+}
+
+.listFut li a{
+	font-size: 8px;
+}
+
+}
